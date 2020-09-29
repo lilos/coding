@@ -6,4 +6,6 @@ cd apue.3e
 make
 
 cc -o myls myls.c -I apue.3e/include/ -L apue.3e/lib/ -lapue
+alias ca="cc -I apue.3e/include/ -L apue.3e/lib/ -lapue"
+ca ***.c
 ```
